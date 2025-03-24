@@ -1,0 +1,14 @@
+{
+  "resourceName": "Directorio",
+  "policyUUID": "94583360",
+  "bucketName": "basearchivo",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

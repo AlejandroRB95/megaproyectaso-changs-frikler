@@ -1,0 +1,75 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifycitybox-dev-f25d0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::060795943164:role/amplify-amplifycitybox-dev-f25d0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::060795943164:role/amplify-amplifycitybox-dev-f25d0-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifycitybox-dev-f25d0-deployment",
+      "UnauthRoleName": "amplify-amplifycitybox-dev-f25d0-unauthRole",
+      "StackName": "amplify-amplifycitybox-dev-f25d0",
+      "StackId": "arn:aws:cloudformation:us-east-2:060795943164:stack/amplify-amplifycitybox-dev-f25d0/b51e32f0-084b-11f0-88a9-060c60629585",
+      "AmplifyAppId": "d35jm4ckv77kxa"
+    }
+  },
+  "auth": {
+    "amplifycitybox646c0efc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifycitybox-dev-f25d0-deployment/amplify-cfn-templates/auth/amplifycitybox646c0efc-cloudformation-template.json",
+        "logicalId": "authamplifycitybox646c0efc"
+      },
+      "lastPushTimeStamp": "2025-03-24T01:33:15.059Z",
+      "output": {
+        "UserPoolId": "us-east-2_BkpCSFFGV",
+        "AppClientIDWeb": "o6ein8d4epek0a0frekbuhgbc",
+        "AppClientID": "5v60fj8u4tekcdhf21eo2ne5sd",
+        "IdentityPoolId": "us-east-2:c74746b7-164e-4edb-91c1-1e946f984fbb",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:060795943164:userpool/us-east-2_BkpCSFFGV",
+        "IdentityPoolName": "amplifycitybox646c0efc_identitypool_646c0efc__dev",
+        "UserPoolName": "amplifycitybox646c0efc_userpool_646c0efc"
+      },
+      "lastPushDirHash": "KahIS/XVnOSRPGWvLTL9cSm2LLw="
+    }
+  },
+  "storage": {
+    "Directorio": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "lastPushTimeStamp": "2025-03-24T01:33:15.621Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifycitybox-dev-f25d0-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storageDirectorio"
+      },
+      "output": {
+        "BucketName": "basearchivof25d0-dev",
+        "Region": "us-east-2"
+      },
+      "lastPushDirHash": "F8qJIgP18cAM9kx9ph5pYRHx+Ck="
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifycitybox-dev-f25d0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::060795943164:role/amplify-amplifycitybox-dev-f25d0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::060795943164:role/amplify-amplifycitybox-dev-f25d0-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifycitybox-dev-f25d0-deployment",
+      "UnauthRoleName": "amplify-amplifycitybox-dev-f25d0-unauthRole",
+      "StackName": "amplify-amplifycitybox-dev-f25d0",
+      "StackId": "arn:aws:cloudformation:us-east-2:060795943164:stack/amplify-amplifycitybox-dev-f25d0/b51e32f0-084b-11f0-88a9-060c60629585",
+      "AmplifyAppId": "d35jm4ckv77kxa"
+    },
+    "categories": {
+      "auth": {
+        "amplifycitybox646c0efc": {}
+      },
+      "storage": {
+        "Directorio": {}
+      }
+    }
+  }
+}
